@@ -1,0 +1,272 @@
+/* CSS Document */
+/* STYLE SHEET FOR LIGHT BOX STYLES OF OFFSHORE MODEL, OUR EXPERTISE FIELD,INDUSTRIES WE SERVE */
+
+
+
+
+.singlePanelDiv {
+	float: left;
+	margin:-19px  8px 0 0 ;
+	position: relative;
+	cursor: pointer;
+	
+}
+
+
+
+.panelDiv {
+	background:url(../images/bg_features.jpg) left top no-repeat #FFFFFF;
+	width: 133px !important;
+	height: 43px;
+	overflow: hidden;
+	top: 0;
+	z-index: 2;
+	font: 11px/14px Arial, Helvetica, sans-serif;
+    color: #333333;
+	position:absolute;
+	padding:0px 0 0 27px !important;
+	margin:0 10px 0 0;
+	
+
+}
+
+
+
+.panelsStyle{
+	position: absolute;
+	z-index: 100;
+	width: 131px;
+	height: auto;
+	font: 11px/14px Arial, Helvetica, sans-serif;
+    color: #333333;
+	margin:-2px 0 0 0px;
+	top:42px;
+	right:32px !important;
+
+}
+
+.panelContent{
+	margin-top: 13px;
+	margin-left: 7px;
+	margin-right: 6px;
+	text-align:left;
+	color:#154074;
+}
+
+.panelContent h3{
+	margin-left: -1px;
+	margin-bottom: 10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px !important;
+
+}
+/*.panelContent a{
+	background: url(../images/ico_tc.jpg) left top no-repeat;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px !important;
+	font-weight:bold;
+	color: #e1830f;
+	padding:0 0 0 22px;
+	text-decoration:none;
+	
+}*/
+
+.expandYellow{
+	position: absolute;
+	z-index: 1;
+	top: 20px;
+	/*background:url(../images/expandYellow.png);*/
+	background:url(../images/view_more.jpg) left top no-repeat;
+	width: 158px !important;
+	height: 23px;
+	overflow: hidden;
+	margin:0px 0 0 0px;
+
+}
+
+
+
+.expandText{
+	color:#ffffff;
+	font: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: right;
+	margin: 4px 00px 0 0;
+	font-weight: bold; 
+}
+
+
+.moreClass{
+	position: absolute;
+	top: 112px;
+}
+
+
+.expanded{
+	visibility: hidden;
+	display: none;
+	margin: 0px 0 0 0  !important;
+	border: 0;
+	
+}
+
+.bbarea {
+	overflow: hidden;
+	height: 300px;
+	width: 940px;
+	z-index: 4;
+}
+
+
+.singleBB {
+	
+	position: absolute;
+	visibility: visible;
+	display: block;
+}
+
+
+.Search {
+	/*position:relative;
+	padding:20px;
+	z-index: 11;
+	top: -4px;*/
+	width: 400px;
+}
+
+.bbIconArea {
+	position:relative;
+	top: -343px;
+	left: -15px;
+	z-index: 12;
+	float: right;
+	width: 940;
+	right: auto;
+	
+	
+}
+
+.iconStyle {
+	position:relative;
+	top: 2px;
+	left: 2px;
+	z-index: 2;
+	height: 29px;
+	overflow: hidden;
+}
+
+.iconBGstyle{
+	position: relative;
+	width: 29px;
+	height: 29px;
+	background-color: #FFFFFF;
+	top: 0px;
+	left: 0px;
+	visibility: visible;
+	z-index: 2;
+}
+
+
+.iconWhiteStyle{
+	position: relative;
+	background-color: #FFFFFF;
+	opacity:0.35;
+	filter:alpha(opacity=50);
+	width: 29px;
+	height: 29px;
+	top: -29px;
+	z-index: 2;
+}
+
+.iconMainClass{
+	width: 29px;
+	height: 29px;	
+	float: left;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+
+.iconYellowstyle{ 
+	position: relative;
+	top: -8px;
+	z-index: 1;
+
+}
+
+
+/* This style is unused... but works - unfortunately, it only produces rectangular shadows, so it won't work on the icons */
+.shadow {
+	-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+.closeBut {
+	position: relative;
+	left: 257px;
+	top: 1px;
+	z-index: 2;
+}
+
+
+.invisible{
+	visibility: hidden;
+	display: none;	
+}
+
+
+.theContent {
+	position: absolute;
+	top: 0px;
+	z-index: 1;
+	width: 372px;
+	height: 454px;
+	overflow: hidden;
+}
+
+.unselectable {
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   user-select: none;
+}
+
+
+
+.searchIconSpace {
+	position: absolute;
+	top: 30px;
+	z-index: 13;
+	width: 938px;
+}
+
+.bbmoviecss {
+	position: absolute;
+	z-index: 2;
+}
+
+
+.moreClass a
+{
+	color:#FF0000 !important;
+	text-decoration:none !important;
+}
+.moreClass a:hover
+{
+	color:#0000FF !important;
+}
+
+
+.feature_heading{
+	margin-left: -1px;
+	margin-bottom: 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#000000;
+
+}

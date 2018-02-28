@@ -1,0 +1,710 @@
+/* CSS Document */
+/* STYLE SHEET FOR LIGHT BOX STYLES */
+
+div.ExpandedModuleBkgd {
+margin: 0px 0px 0px 0px;
+width: 372px;
+height: 454px;
+}
+
+div.ModuleContent {
+text-align: left;
+vertical-align: text-top;
+margin: 20px 10px 10px 10px;
+}
+
+table.TblBkgd {
+background-color: #FFFFFF;
+margin:0 0 0 10px;
+}
+
+/* Headings1-2 */
+
+img.GraphicalH1 {
+padding-top: 25px;
+padding-bottom: 9px;
+}
+span.Lowercase {
+text-transform: none;
+}
+/*h1 {
+font: 19px/22px Arial, Helvetica, sans-serif; 
+color: #333333; 
+text-transform: uppercase;
+letter-spacing: -0.05em;
+}
+h1 em {
+color: #999999;
+font-style: normal;
+}*/
+
+a {
+color: #04357B;
+text-decoration: underline;
+}
+a:visited {
+color: #644459;
+text-decoration: underline;
+}
+a:hover {
+color: #04357B;
+text-decoration: none;
+}
+
+/* DataTables */
+
+table.DataTable {
+background: #ffffff;
+}
+.DataTableTH {
+font: Bold 12px/15px Arial, Helvetica, sans-serif; 
+height: 27px;
+vertical-align: middle;
+}
+.DataTableFooter {
+height: 21px;
+}
+div.Dove .DataTableTH {
+background: #E3E9EC url(../images/DataTableTHBgRepeatDove.jpg) repeat-x;
+}
+div.Dove .DataTableRow01 {
+background: #E3E9EC;
+}
+div.Dove .DataTableRow02 {
+background: #DAE1E5;
+}
+div.Dove .DataTableHR {
+background: #FFFFFF url(../images/HRDove.gif) repeat-x;
+font-weight: normal
+}
+div.Dove .DataTableFooter {
+background: url(../images/DataTableFooterBgRepeatDove.jpg) repeat-x;
+}
+div.Petrol .DataTableTH {
+background: #DCE8EA url(../images/DataTableTHBgRepeatPetrol.jpg) repeat-x;
+}
+div.Petrol .DataTableRow01 {
+background: #DCE8EA;
+}
+div.Petrol .DataTableRow02 {
+background: #D0E0E2;
+}
+div.Petrol .DataTableHR {
+background: #FFFFFF url(../images/HRPetrol.gif) repeat-x;
+}
+div.Petrol .DataTableFooter {
+background: url(../images/DataTableFooterBgRepeatPetrol.jpg) repeat-x;
+}
+div.WarmGreen .DataTableTH {
+background: #E6EBE0 url(../images/DataTableTHBgRepeatWarmGreen.jpg) repeat-x;
+}
+div.WarmGreen .DataTableRow01 {
+background: #E6EBE0;
+}
+div.WarmGreen .DataTableRow02 {
+background: #DDE4D6;
+}
+div.WarmGreen .DataTableHR {
+background: #FFFFFF url(../images/HRWarmGreen.gif) repeat-x;
+}
+
+
+div.WarmGreen .DataTableFooter {
+background: url(../images/DataTableFooterBgRepeatWarmGreen.jpg) repeat-x;
+}
+div.WarmRed .DataTableTH {
+background: #EBE4E1 url(../images/DataTableTHBgRepeatWarmRed.jpg) repeat-x;
+
+} #FF0000
+div.WarmRed .DataTableRow01 {
+background: #EBE4E1;
+}
+div.WarmRed .DataTableRow02 {
+background: #E4DBD7;
+}
+div.WarmRed .DataTableHR {
+background: #FFFFFF url(../images/HRWarmRed.gif) repeat-x;
+}
+div.WarmRed .DataTableFooter {
+background: url(../images/DataTableFooterBgRepeatWarmRed.jpg) repeat-x;
+}
+div.VioletMauve .DataTableTH {
+background: #E8E3E6 url(../images/DataTableTHBgRepeatVioletMauve.jpg) repeat-x;
+}
+div.VioletMauve .DataTableRow01 {
+background: #E8E3E6;
+}
+div.VioletMauve .DataTableRow02 {
+background: #E0DADE;
+}
+div.VioletMauve .DataTableHR {
+background: #FFFFFF url(../images/HRVioletMauve.gif) repeat-x;
+}
+div.VioletMauve .DataTableFooter {
+background: url(../images/DataTableFooterBgRepeatVioletMauve.jpg) repeat-x;
+}
+.DataTableTHDoveDk {
+font: Bold 12px/15px Arial, Helvetica, sans-serif; 
+background: #D0D9DE url(../images/DataTableTHBgRepeatDoveDk.jpg) repeat-x;
+height: 27px;
+vertical-align: middle;
+}
+.DataTableRow02DoveDk {
+background: #D0D9DE;
+}
+.DataTableFooterDoveDk {
+background: url(../images/DataTableFooterBgRepeatDoveDk.jpg) repeat-x;
+height: 21px;
+}
+.DataTableRowWhite {
+background: #FFFFFF;
+font-weight:normal
+}
+.DataTableRowLtDove {
+background: #B4C3CB;
+}
+
+/* Lists */
+
+ul {
+font: 11px/14px Arial, Helvetica, sans-serif;
+padding-left: 0px; 
+margin-bottom: 20px; 
+margin-left: 30px;
+color: #333333;
+}
+ul ul {
+padding-left: 0px; 
+margin-top: 3px; 
+margin-bottom: 0px; 
+margin-left: 30px;
+color: #333333;
+}
+div.Dove li {
+list-style-image: url(../images/BulletDove.gif);
+margin-bottom: 3px; 
+}
+div.Dove li li {
+list-style-image: url(../images/BulletDove.gif);
+margin-bottom: 3px; 
+}
+div.Petrol li {
+list-style-image: url(../images/BulletPetrol.gif);
+margin-bottom: 3px; 
+}
+div.Petrol li li {
+list-style-image: url(../images/BulletPetrol.gif);
+margin-bottom: 3px; 
+}
+div.WarmGreen li {
+list-style-image: url(../images/BulletWarmGreen.gif);
+margin-bottom: 3px; 
+}
+div.WarmGreen li li {
+list-style-image: url(../images/BulletWarmGreen.gif);
+margin-bottom: 3px; 
+}
+div.WarmRed li {
+list-style-image: url(../images/BulletWarmRed.gif);
+margin-bottom: 3px; 
+}
+div.WarmRed li li {
+list-style-image: url(../images/BulletWarmRed.gif);
+margin-bottom: 3px; 
+}
+div.VioletMauve li {
+list-style-image: url(../images/BulletVioletMauve.gif);
+margin-bottom: 3px; 
+}
+div.VioletMauve li li {
+list-style-image: url(../images/BulletVioletMauve.gif);
+margin-bottom: 3px; 
+}
+
+/* HorizontalAndVerticalRules */
+
+hr {
+background: #cccccc;
+}
+td.VerticalLineMdGray {
+background: #cccccc;
+}
+
+/* PhotoColorOverlays */
+
+td.PhotoColorOverlay {
+text-align: left;
+margin: 0px;
+padding: 20px 12px 20px 12px;
+filter: alpha(opacity=80);
+-moz-opacity: 0.8;
+opacity: 0.8;
+}
+div.Dove td.PhotoColorOverlay {
+background-color: #44697D;
+}
+div.Petrol td.PhotoColorOverlay {
+background-color: #156570;
+}
+div.WarmGreen td.PhotoColorOverlay {
+background-color: #557630;
+}
+div.WarmRed td.PhotoColorOverlay {
+background-color: #774A39;
+}
+div.VioletMauve td.PhotoColorOverlay {
+background-color: #644459;
+}
+td.PhotoImageOverlay {
+text-align: left;
+margin: 0px;
+padding: 20px 12px 20px 12px;
+}
+div.Dove td.PhotoImageOverlay {
+background: url(../images/TransparentOverlayDove.png) repeat;
+}
+div.Petrol td.PhotoImageOverlay {
+background: url(../images/TransparentOverlayPetrol.png) repeat;
+}
+div.WarmGreen td.PhotoImageOverlay {
+background: url(../images/TransparentOverlayWarmGreen.png) repeat;
+}
+div.WarmRed td.PhotoImageOverlay {
+background: url(../images/TransparentOverlayWarmRed.png) repeat;
+}
+div.VioletMauve td.PhotoImageOverlay {
+background: url(../images/TransparentOverlayVioletMauve.png) repeat;
+}
+
+/* WhiteText */
+
+span.ModuleContentWhite {
+font: 11px/17px Arial, Helvetica, sans-serif; 
+color: #ffffff;
+}
+span.ModuleContentWhite h6 {
+font: 11px/16px Arial Black, Arial, Helvetica, sans-serif; 
+color: #FFFFFF;
+text-transform: uppercase;
+margin-top: 0px;
+}
+span.ModuleContentWhite p {
+font: 11px/15px Arial, Helvetica, sans-serif; 
+color: #FFFFFF;
+}
+span.ModuleContentWhite p.Uppercase {
+font: 12px/19px Arial, Helvetica, sans-serif; 
+color: #FFFFFF;
+text-transform: uppercase;
+}
+span.ModuleContentWhite ul {
+font: 11px/17px Arial, Helvetica, sans-serif;
+padding-left: 0px; 
+margin-bottom: 25px; 
+margin-left: 18px;
+color: #FFFFFF;
+}
+span.ModuleContentWhite li {
+list-style-image: url(../images/BulletGold.gif);
+}
+span.ModuleContentWhite a {
+color: #ffffff;
+text-decoration: underline;
+}
+span.ModuleContentWhite a:visited {
+color: #ffffff;
+text-decoration: underline;
+}
+span.ModuleContentWhite a:hover {
+color: #ffffff;
+text-decoration: none;
+}
+.white{
+color: #ffffff;
+}
+.white:hover{
+color: #ffffff;
+}
+.white:visited{
+color: #ffffff;
+}
+
+
+
+.homepage_popup 
+{
+	margin:0px 0 0 0  !important;
+	padding:0;
+}
+
+
+
+
+
+.homepage_popup ul
+{
+	margin:0px 5px 10px 0px !important;
+	padding:0;
+}
+
+HTML>BODY homepage_popup ul
+{
+	margin:0px 5px 10px 0px !important;
+	padding:0;
+}
+
+
+.homepage_popup ul li
+{
+	list-style:none;
+	padding:0px 0 0 18px !important;
+	background:url(../images/bullet_yarrow.jpg) left 5px no-repeat !important;
+	line-height:17px !important;
+	margin:3px 0 0 0 !important;
+	font-size:11px !important;
+	letter-spacing:normal;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal !important;
+}
+*:first-child + html .homepage_popup ul li
+{
+	list-style:none;
+	padding:0px 0 0 18px !important;
+	background:url(../images/bullet_yarrow.jpg) left 5px no-repeat !important;
+	line-height:17px !important;
+	margin:3px 0 0 0 !important;
+	font-size:11px;
+	letter-spacing:normal;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal !important;
+}
+HTML>BODY .homepage_popup ul li
+{
+	list-style:none;
+	padding:0px 0 0 18px !important;
+	background:url(../images/bullet_yarrow.jpg) left 5px no-repeat !important;
+	line-height:17px !important;
+	margin:3px 0 0 0 !important;
+	font-size:11px;
+	letter-spacing:normal;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal !important;;
+}
+
+.homepage_popup ul li.small
+{
+	width:95px;
+	float:left;
+	list-style:none;
+	padding:0px 0 0 18px !important;
+	background:url(../images/bullet_yarrow.jpg) left 4px no-repeat !important;
+	line-height:15px !important;
+	margin:0 !important;
+	font-size:11px;
+	font-weight:normal !important;
+}
+
+
+.homepage_popup ul li.small12
+{
+	width:109px;
+	float:left;
+	list-style:none;
+	padding:0px 0 0 18px !important;
+	background:url(../images/bullet_yarrow.jpg) left 4px no-repeat !important;
+	line-height:15px !important;
+	margin:0 !important;
+	font-size:11px;
+	font-weight:normal !important;
+}
+
+
+h3.popupfont
+{
+	color:#007ac3 !important;
+	font-size:14px !important;
+	margin:0;
+	padding:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	
+}
+
+h4.popupheader
+{
+	color:#007ac3 !important;
+	font-size:11px !important;
+	margin:0;
+	padding:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	
+}
+
+.homepage_popup_secondtext
+{
+	width:410px;
+	margin:0 0 5px 0;
+	padding:7px;
+	line-height:16px;
+	background:#e8e8e8;
+	color:#000000 !important;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	text-align:left !important;
+	float:left;
+}
+
+.homepage_thirdpopup_panel
+{
+	width:190px;
+	margin:0 10px 0 4px !important;
+	padding:7px;
+	line-height:14px;
+	background:#e8e8e8;
+	color:#000000 !important;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	text-align:left !important;
+	float:left;
+	height:133px !important;
+}
+
+HTML>BODY .homepage_thirdpopup_panel
+{
+	width:190px;
+	margin:0 0 0 10px;
+	padding:7px;
+	line-height:14px;
+	background:#e8e8e8;
+	color:#000000 !important;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	text-align:left !important;
+	float:left;
+	height:133px !important;
+}
+
+
+.homepage_thirdpopup_panel img
+{
+	float:right;
+	margin:2px;
+	border:0;
+	
+}
+
+
+/*
+Bug id    : 1944
+Description : Window "Our Offshore model structure" contents are not displayed completely.
+Done By     : Gurpreet, Aasish
+Date        : 07th Feb 2011
+SVN Version : 1.15
+*/
+
+.heading_for_panel
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	display:block;
+	background:url(../images/img_arrow_popup.jpg) left top no-repeat;
+	padding:0 0 0 20px;
+	height:22px;
+	font-weight:bold;
+	color:#007ac3 !important;
+	
+}
+
+
+.homepage_popup ul.foranchor
+{
+	margin:5px 0 0 10px !important;
+	padding:0;
+	display:block;
+}
+
+
+.homepage_popup ul.foranchor li.forapanel 
+{
+	list-style:none;
+	padding:0px !important;
+	width:150px !important;
+	text-align:left;
+	margin:0 !important;
+	line-height:16px;
+	float:left;
+	display:block;
+
+		
+}
+
+
+.homepage_popup ul.foranchor li.forapanel a
+{
+	padding:0px 0 0 18px !important;
+	width:auto;
+	text-align:left;
+	line-height:16px !important;
+	margin:0 !important;
+	float:left;
+	color:#000000;
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	
+
+	
+}
+.homepage_popup ul.foranchor li.forapanel a:hover
+{
+	color:#007ac3;
+	text-decoration:underline;
+}
+
+
+.homepage_popup_text
+{
+	margin:0;
+	padding:0;
+	line-height:14px;
+	color:#3d3d3d !important;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	text-align:left !important;
+		font-size:11px ;
+}
+
+
+
+.homepage_popup  a
+{
+	padding:0px 11px 0 18px !important;
+	width:auto;
+	display:block !important;
+	text-align:left;
+	line-height:16px !important;
+	margin:0 !important;
+	float:right;
+	color:#000000 !important;
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-decoration:none !important;
+	
+
+	
+}
+.homepage_popup a:hover
+{
+	color:#007ac3 !important;
+	text-decoration:underline !important;
+}
+
+
+
+/*Bug id  : 1977
+Description : User is re-directed to page "Industries" on clicking link "More Information" on popup "Our Offshore Model Structure".
+Done By     : Gurpreet, Aasish
+Date        : 08th Feb 2011
+SVN Version : 1.15
+*/
+
+
+
+
+.homepage_popup_forbottonmore
+{
+	margin:0;
+	padding:0;
+	width:150px;
+	height:25px;
+	float:right;
+	text-align:right;
+	position:absolute;
+	margin:122px 0 0 39px;
+}
+
+
+.homepage_popup_forbottonmore a
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:right !important;
+	color:#007ac3 !important;
+	font-weight:normal !important;
+	font-size:11px;
+	outline:0;
+	margin:0 !important;
+	text-decoration:none !important;
+
+}
+
+
+.homepage_popup_forbottonmore a:hover
+{
+		color:#000000 !important;
+		text-decoration:underline !important;
+	
+}
+
+
+.homepage_popup
+{
+	margin:0;
+	padding:0;
+	line-height:16px;
+	color:#3d3d3d !important;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	text-align:left !important;
+		font-size:11px ;
+}
+
+.homepage_popup strong
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+
+
+
+/*Bug id      : 1977
+Description : Link "More Information" under different sections is not aligned in the same line.
+Done By     : Gurpreet, Aasish
+Date        : 07th Feb 2011
+SVN Version : 1.15*/
+
+.homepage_popup a
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:right !important;
+	color:#007ac3 !important;
+	widows:auto;
+	font-weight:normal !important;
+	font-size:11px;
+	text-decoration:none;
+	outline:0;
+	display:block;
+	margin:6px 33px 0 0 !important;	
+}
+
+.homepage_popup a.forpanels
+{
+	
+	margin:5px 5px 0 0 !important;
+	color:#000000 !important;
+	
+}
+
+.homepage_popup a:hover
+{
+	color:#000000 !important;
+	text-decoration:underline;
+}
+
+
+.margin_more_from_top
+{
+	margin:110px 0 0 0 !important; 
+}
